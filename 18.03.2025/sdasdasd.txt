@@ -1,0 +1,13 @@
+T: Alter table w układzie 1 do wieli.
+ALTER table users add COLUMN email varchar(255) UNIQUE;
+ALTER table users modify COLUMN name varchar(150);
+alter table users DROP email;
+ALTER TABLE orders change COLUMn total order_total Decimal(12,2);
+alter TABLE orders add column Created_at timestamp DEFAULT CURRENT_TIMESTAMP;
+SELECT * FROM `users`
+SELECT * FROM `users`
+SELECT * FROM `users`
+SELECT * FROM `orders`
+alter table orders add index idx_user_id(user_id);
+ALTER TABLE users add COLUMN phone_number varchar(15) NULL;
+alter table orders RENAME user_orders;
